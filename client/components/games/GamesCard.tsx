@@ -13,12 +13,12 @@ const GamesCard = () => {
           The Games we have
         </h1>
         <div
-          className="flex sm:justify-center flex-wrap gap-10
+          className="flex justify-center flex-wrap gap-10
         "
         >
           {Games.map((game, index) => (
             <div
-              className="sm:w-[250px] h-[300px] w-[190px] border-6 border-white rounded-lg overflow-hidden"
+              className="w-[250px] h-[300px] border-6 border-white rounded-lg overflow-hidden"
               key={index}
             >
               <div

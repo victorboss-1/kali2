@@ -18,7 +18,7 @@ const Hero = () => {
         <span className="flex gap-5 ">
           <Link
             href={"/support"}
-            className="text-white bg-orange-600 w-[180px] h-[57px] rounded-md text-[20px] font-semibold cursor-pointer flex justify-center items-center transition-all duration-300 hover:bg-orange-600 hover:shadow-lg hover:scale-105 animate-spin"
+            className="text-white bg-orange-600 w-[180px] h-[57px] rounded-md text-[20px] font-semibold cursor-pointer flex justify-center items-center transition-all duration-300 hover:bg-orange-600 hover:shadow-lg hover:scale-105"
           >
             Start Playing
           </Link>
