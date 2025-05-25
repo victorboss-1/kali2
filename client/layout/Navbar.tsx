@@ -13,12 +13,12 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center px-[50px] py-3 bg-transparent backdrop-blur-2xl top-0 sticky z-50">
+    <nav className="flex justify-between items-center px-2 sm:px-[50px] py-3 bg-transparent backdrop-blur-2xl top-0 sticky z-50">
       {/* Logo */}
       <Link href={"/"} className="flex items-center gap-2 z-50">
         <Image src={logo} alt="Logo" width={60} height={60} />
         <h1 className="text-[#F36E0F] text-xl font-bold">
-          Kali <br /> Gaming
+          Kali <br className="hidden sm:block" /> Gaming
         </h1>
       </Link>
 

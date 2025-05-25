@@ -8,17 +8,17 @@ const GamesCard = () => {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen px-[50px]">
-        <h1 className="text-center text-white text-[50px] py-15 ">
+      <section className="min-h-screen sm:px-[50px]">
+        <h1 className="text-center text-white sm:text-[50px] text-[30px] py-15 ">
           The Games we have
         </h1>
         <div
-          className="flex justify-center flex-wrap gap-10
+          className="flex sm:justify-center flex-wrap gap-10
         "
         >
           {Games.map((game, index) => (
             <div
-              className="w-[250px] h-[300px] border-6 border-white rounded-lg overflow-hidden"
+              className="sm:w-[250px] h-[300px] w-[190px] border-6 border-white rounded-lg overflow-hidden"
               key={index}
             >
               <div
